@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+
+.menu {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.mySwiper {
+    margin-top: 41px;
+}
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 80%;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.mySwiper {
+    margin-top: 80px;
+}
+
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.icon i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.left {
+    color: white;
+    font-size: 40px;
+}
+
+.content-title {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.form {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width:500px) {
+    .card-title {
+        color: red !important;
+    }
+}
